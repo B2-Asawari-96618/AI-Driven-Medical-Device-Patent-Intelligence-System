@@ -218,3 +218,11 @@ __marimo__/
 .streamlit/secrets.toml
 src/preprocessing/cleaned_patent_data.csv
 src/preprocessing/merged.json
+# preprocessing outputs
+src/preprocessing/*.csv
+src/preprocessing/*.json
+*.csv
+*.json
+
+# notebooks checkpoints
+.ipynb_checkpoints/
