@@ -216,3 +216,5 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+src/preprocessing/cleaned_patent_data.csv
+src/preprocessing/merged.json
