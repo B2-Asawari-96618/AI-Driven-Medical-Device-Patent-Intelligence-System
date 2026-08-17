@@ -226,3 +226,24 @@ src/preprocessing/*.json
 
 # notebooks checkpoints
 .ipynb_checkpoints/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# VS Code local settings
+.vscode/
+
+# Local Chroma/vector database
+src/vector_db/
+*.sqlite3
+
+# Backup archives
+*.zip
+
+# Local/generated models
+src/models/
+
+# Secrets
+.env
+.streamlit/secrets.toml
