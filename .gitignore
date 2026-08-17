@@ -247,3 +247,18 @@ src/models/
 # Secrets
 .env
 .streamlit/secrets.toml
+
+# Generated notebook vector DB
+src/notebooks/patent_chroma_db/
+
+# Generated datasets/results
+src/data/
+src/results/
+
+# Temporary/testing notebooks
+src/notebooks/checking_cuda.ipynb
+src/notebooks/cpu_mode.ipynb
+src/notebooks/test.ipynb
+
+# Older duplicate notebook
+src/notebooks/Topic_Discovery_Preparation.ipynb
